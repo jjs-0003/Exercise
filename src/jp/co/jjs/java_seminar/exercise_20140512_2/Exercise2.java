@@ -6,9 +6,9 @@ public class Exercise2 {
         String str2 = "今日の気温は";
         String wether = "曇り";
         int    kion   = 24;
-        
-        System.out.println(str1+wether+"です");
-        System.out.println(str2+kion+"です。");
-        
+
+        System.out.println(str1 + wether + "です");
+        System.out.println(str2 + kion + "度です。");
+
     }
 }
