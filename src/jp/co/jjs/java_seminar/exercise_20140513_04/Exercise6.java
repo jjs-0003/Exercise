@@ -4,10 +4,9 @@ public class Exercise6 {
     public static void main(String[] args) {
         int n = 9;
 
-        if(n % 2 == 0){
+        if (n % 2 == 0) {
             System.out.println("nは偶数です。");
-        }
-        else{
+        } else {
             System.out.println("nは奇数です。");
         }
     }
