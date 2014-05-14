@@ -12,10 +12,15 @@ public class Main {
         System.out.println("Student Adrress:" + std.address);
         System.out.println(std.isAttendance);
 
-        for(int i = 0; i < 50; i++){
-            if(i % 2 == 0){
-                std.increaseAns();
-            }
+        if(std.isAttendance == true){
+            System.out.println("出席しています");
+        }else{
+            System.out.println("出席していません");
+        }
+
+
+        for(int i = 0; i < 5; i++){
+            std.increaseAns();
         }
 
         System.out.println(std.report());

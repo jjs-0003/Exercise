@@ -6,11 +6,11 @@ public class Student {
     String name; // 名前
     int year; // 年齢
     String phonNum; // 電話番号
-    String address; //住所
-    boolean isAttendance ; // 出席状態
+    String address; // 住所
+    boolean isAttendance; // 出席状態
     int ansewr; // 解いた問題数
 
-    //コンストラクタ
+    // コンストラクタ
     public Student(int id, String sex, String name, int year) {
         this.id = id;
         this.name = name;
@@ -28,14 +28,14 @@ public class Student {
         isAttendance = false;
     }
 
-    //問題がとかれたらカウントアップ
-    public void  increaseAns(){
+    // 問題がとかれたらカウントアップ
+    public void increaseAns() {
         this.ansewr++;
     }
 
-    //解いた問題数を返す
+    // 解いた問題数を返す
     public String report() {
-         return Integer.toString(this.ansewr) + "問解きました。";
+        return this.ansewr + "問解きました。";
     }
 
 }
