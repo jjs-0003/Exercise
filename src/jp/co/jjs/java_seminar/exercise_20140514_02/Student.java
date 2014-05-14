@@ -32,4 +32,10 @@ public class Student {
     public void  increaseAns(){
         this.ansewr++;
     }
+
+    //解いた問題数を返す
+    public String report() {
+         return Integer.toString(this.ansewr) + "問解きました。";
+    }
+
 }

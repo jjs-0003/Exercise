@@ -18,7 +18,7 @@ public class Main {
             }
         }
 
-        System.out.println(std.ansewr);
+        System.out.println(std.report());
 
     }
 }
