@@ -32,9 +32,4 @@ public class Task {
         return this.taskName;
     }
 
-    public void show(){
-        for(int i = 0; i < sum; i++){
-            System.out.println(i + ". " + getTask() + getEnd());
-        }
-    }
 }
