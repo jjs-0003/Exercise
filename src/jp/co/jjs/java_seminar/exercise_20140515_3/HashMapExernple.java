@@ -13,7 +13,7 @@ public class HashMapExernple {
         hash.put("ghi", 1000);
         
         System.out.println("key 一覧：" + hash.keySet());
-        System.out.println("value 一覧" + hash.values());
+        System.out.println("value 一覧：" + hash.values());
         System.out.println("指定したkey\"def\":" + hash.get("def"));
         System.out.println("一覧：" + hash);
     }
