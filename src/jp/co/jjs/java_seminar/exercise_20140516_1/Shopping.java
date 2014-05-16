@@ -1,6 +1,6 @@
 package jp.co.jjs.java_seminar.exercise_20140516_1;
 
-public class Shopping extends Task{
+public class Shopping extends Task {
 
     private int price;
 
@@ -10,9 +10,8 @@ public class Shopping extends Task{
     }
 
     @Override
-     public String getTask(){
+    public String getTask() {
         return super.getTask() + "(" + this.price + "円)";
     }
-
 
 }

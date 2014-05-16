@@ -11,10 +11,10 @@ public class Main {
         // タスクの登録
         toDoList.add(new Task("C++の復習"));
         toDoList.add(new Task("javaの復習"));
-        toDoList.add(new Shopping("kitakaのチャージ",1000));
+        toDoList.add(new Shopping("kitakaのチャージ", 1000));
         toDoList.add(new Shopping("kitakaのチャージ", 2000));
         toDoList.add(new Task("suica"));
-        toDoList.add(new Shopping("kitakaのチャージ",10000));
+        toDoList.add(new Shopping("kitakaのチャージ", 10000));
         toDoList.add(new Task("復習"));
 
         // タスクの完了
@@ -23,11 +23,9 @@ public class Main {
         toDoList.get(2).setEnd();
         toDoList.get(3).setEnd();
 
-
         // タスクの一覧
         for (Task td : toDoList) {
-            System.out.println( td.getTask() +td.getEnd());
-            
+            td.show();
         }
     }
 

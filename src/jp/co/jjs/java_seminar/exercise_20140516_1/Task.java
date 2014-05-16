@@ -30,4 +30,8 @@ public class Task {
         return this.taskName;
     }
 
+    public void show() {
+        System.out.println(this.getTask() + this.getEnd());
+    }
+
 }
