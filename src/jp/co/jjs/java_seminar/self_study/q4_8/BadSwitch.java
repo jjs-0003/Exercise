@@ -6,10 +6,10 @@ public class BadSwitch {
         int i = 1;
         int j = 2;
         switch (Integer.parseInt(args[0])) {
-        case i:
+        case 1:
             System.out.println("1"); // case式は定数式でなければいけません
             break;
-        case j:
+        case 2:
             System.out.println("2");// case式は定数式でなければいけません
             break;
         default:

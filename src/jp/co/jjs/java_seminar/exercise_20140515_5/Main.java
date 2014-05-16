@@ -19,10 +19,10 @@ public class Main {
         toDoList.add(new Task("復習"));
 
         // タスクの完了
-        toDoList.get(0).endTask();
-        toDoList.get(1).endTask();
-        toDoList.get(2).endTask();
-        toDoList.get(3).endTask();
+        toDoList.get(0).setEnd();
+        toDoList.get(1).setEnd();
+        toDoList.get(2).setEnd();
+        toDoList.get(3).setEnd();
 
 
         // タスクの一覧
