@@ -10,6 +10,6 @@ public class Main {
         fileI.inFile("Book1.csv", bookshelf);
         bookshelf.show();
 
-        fileO.outFile("Book2.csv", bookshelf.getList());
+        fileO.outFile("Book2.csv", bookshelf.getAll());
     }
 }

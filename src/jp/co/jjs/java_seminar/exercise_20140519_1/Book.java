@@ -30,4 +30,79 @@ public class Book {
                 + price;
     }
 
+    /**
+     * @return title
+     */
+    public String getTitle() {
+        return title;
+    }
+
+    /**
+     * @param title
+     *            セットする title
+     */
+    public void setTitle(String title) {
+        this.title = title;
+    }
+
+    /**
+     * @return isbn
+     */
+    public String getIsbn() {
+        return isbn;
+    }
+
+    /**
+     * @param isbn
+     *            セットする isbn
+     */
+    public void setIsbn(String isbn) {
+        this.isbn = isbn;
+    }
+
+    /**
+     * @return author
+     */
+    public String getAuthor() {
+        return author;
+    }
+
+    /**
+     * @param author
+     *            セットする author
+     */
+    public void setAuthor(String author) {
+        this.author = author;
+    }
+
+    /**
+     * @return publisher
+     */
+    public String getPublisher() {
+        return publisher;
+    }
+
+    /**
+     * @param publisher
+     *            セットする publisher
+     */
+    public void setPublisher(String publisher) {
+        this.publisher = publisher;
+    }
+
+    /**
+     * @return price
+     */
+    public int getPrice() {
+        return price;
+    }
+
+    /**
+     * @param price
+     *            セットする price
+     */
+    public void setPrice(int price) {
+        this.price = price;
+    }
+
 }
