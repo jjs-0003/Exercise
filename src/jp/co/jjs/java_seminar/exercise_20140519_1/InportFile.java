@@ -8,20 +8,19 @@ import java.nio.file.Paths;
 
 public class InportFile {
 
-    public void inFile(String[] str, BookShelf books) {
+    public void inFile(BookShelf books) {
 
         try (BufferedReader reader = Files.newBufferedReader(
             Paths.get("Book1.csv"), Charset.forName("SHIFT-JIS"))) {
 
-            int i = 0;
+
             String line = null;
             String[] str2 = new String[4];
             while ((line = reader.readLine()) != null) {
-                str[i] = line;
-                str2 = str[i].split(",");
+                str2 = line.split(",");
                 Book book = new Book(str2[0], str2[1], str2[2], str2[3], str2[4]);
                 books.add(book);
-                i++;
+
             }
 
         } catch (IOException e) {
