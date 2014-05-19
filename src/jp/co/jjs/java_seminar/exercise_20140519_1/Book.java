@@ -8,7 +8,8 @@ public class Book {
     private String publisher;
     private int price;
 
-    public Book(String title, String isbn, String author, String publisher, int price) {
+    public Book(String title, String isbn, String author, String publisher,
+            int price) {
 
         this.title = title;
         this.isbn = isbn;
@@ -18,14 +19,15 @@ public class Book {
 
     }
 
-    /* (非 Javadoc)
+    /*
+     * (非 Javadoc)
+     *
      * @see java.lang.Object#toString()
      */
     @Override
     public String toString() {
-        return " [title=" + title + ", isbn=" + isbn + ", author=" + author
-                + ", publisher=" + publisher + ", price=" + price + "]";
+        return title + "," + isbn + "," + author + "," + publisher + ","
+                + price;
     }
-
 
 }

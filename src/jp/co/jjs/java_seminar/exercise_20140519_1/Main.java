@@ -4,9 +4,12 @@ public class Main {
     public static void main(String[] args) {
 
         InportFile fileI = new InportFile();
+        ExportFile fileO = new ExportFile();
         BookShelf bookshelf = new BookShelf();
 
-        fileI.inFile(bookshelf);
+        fileI.inFile("Book1.csv", bookshelf);
         bookshelf.show();
+
+        fileO.outFile("Book2.csv", bookshelf.getList());
     }
 }

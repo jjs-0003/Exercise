@@ -6,15 +6,18 @@ public class BookShelf {
 
     private ArrayList<Book> list = new ArrayList<>();
 
-
-    public void add(Book book){
+    public void add(Book book) {
         list.add(book);
     }
 
-    public void show(){
-        for(Book book: list){
+    public void show() {
+        for (Book book : list) {
             System.out.println(book.toString());
         }
+    }
+
+    public ArrayList<Book> getList() {
+        return this.list;
     }
 
 }
